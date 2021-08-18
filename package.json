@@ -1,0 +1,19 @@
+{
+    "name": "analytics",
+    "private": true,
+    "version": "1.0.0",
+    "description": "package for creating workers templates",
+    "main": "src/index.js",
+    "scripts": {
+        "format": "prettier --write '**/*.{js,css,json,md}'"
+    },
+    "author": "Akira <19719195+akireee@users.noreply.github.com>",
+    "license": "ISC",
+    "devDependencies": {
+        "prettier": "^1.17.0"
+    },
+    "dependencies": {
+        "itty-router": "^2.1.9",
+        "serverless-cloudflare-workers": "^1.2.0"
+    }
+}
